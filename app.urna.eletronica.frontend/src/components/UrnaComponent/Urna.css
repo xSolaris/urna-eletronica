@@ -1,0 +1,155 @@
+.main-container{
+  width: 100%;
+  height: 100%;
+  font-family: verdana;
+}
+h4,
+h5,
+h1 {
+  margin-left: 5px;
+}
+h3 {
+  margin-left: 5px;
+  margin-top: 6px;
+}
+div {
+  border-style: solid;
+  border-width: 0px;
+}
+.modal-principal {
+  width: 800px;
+  height: 450px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: calc(50% - 225px);
+  left: calc(50% - 400px);
+  border-width: 0px;
+}
+.monitor {
+  border: 4px groove LightSteelBlue;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), transparent);
+  background-color: LightSteelBlue;
+  position: absolute;
+  width: 478px;
+  height: 450px;
+}
+.apresentacao-candidato {
+  float: left; 
+  width: 100%; 
+  height: 300px;
+}
+.numero-titulo {
+  float: left;
+  margin-right: 6px; 
+}
+
+.input-legendaPartido{
+  margin-top: -8px;
+  margin-left: 10px;
+  padding: 0px;
+  color: black;
+  font-family: Tahoma;
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.candidato-foto {
+  float: right;
+  border-width: 0px;
+  width: 145px;
+  height: 170px;
+  margin-right: 3px;
+  margin-top: 3px;
+}
+.orientacao {
+  border-width: 4px;
+  border-top-style: inset;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-color: LightSteelBlue;
+  float: left;
+  width: 100%;
+  height: 148px;
+}
+.orientacao p {
+  margin-left: 10px;
+}
+.teclado {
+  background: url("https://www.publicdomainpictures.net/pictures/210000/velka/paper-texture-crean-background.jpg");
+  width: 318px;
+  height: 450px;
+  border: 4px groove LightSteelBlue;
+  position: relative;
+  float: right;
+}
+.justica {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.img-logo {
+  width: 65px;
+  vertical-align: middle;
+}
+.teclado-numeros {
+  background: url("https://image.freepik.com/fotos-gratis/textura-de-quadro-de-giz-preto-com-arranhoes-e-tracos-de-giz_89245-150.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  margin-top: 2px;
+  height: 250px;
+  /* width: 240px;
+  padding-top: 20px; */
+  padding-left: 60px;
+  padding-right: 20px;
+}
+.botao {
+  background-color: #555555;
+  border-top-style: outset;
+  border-left-style: outset;
+  color: white;
+  padding: 15px 20px 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 3px;
+  cursor: pointer;
+}
+.button0 {
+  margin-left: 68px;
+  margin-right: 68px;
+}
+.btn-operacoes {
+  background: url("https://image.freepik.com/fotos-gratis/textura-de-quadro-de-giz-preto-com-arranhoes-e-tracos-de-giz_89245-150.jpg");
+  background-position: center left;
+  width: 310px;
+  height: 110px;
+  float: left;
+  padding-top: 0px;
+}
+.branco {
+  background-color: white;
+  font-size: 12px;
+  color: gray;
+  border-style: none;
+  padding: 15px;
+  margin-top: 40px;
+  margin-left: 12px;
+}
+.corrige {
+  background-color: #ff8c00;
+  font-size: 12px;
+  color: black;
+  border-style: none;
+  padding: 15px;
+}
+.confirma {
+  background-color: #4caf50;
+  font-size: 12px;
+  color: black;
+  border-style: none;
+  padding-top: 30px;
+}
